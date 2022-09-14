@@ -1,0 +1,27 @@
+{
+  "name": "first",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha src/tests",
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manzanit0/Microverse-Node-Course.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manzanit0/Microverse-Node-Course/issues"
+  },
+  "homepage": "https://github.com/Manzanit0/Microverse-Node-Course#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "mongoose": "^4.9.0",
+    "chai": "^3.5.0",
+    "chai-http": "^3.0.0"
+  }
+}
